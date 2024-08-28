@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhivya Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 2;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+header {
+    background: #6e90bd ; 
+    color: #fff;
+    padding: 1% 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 10;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #050505;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.hero-section {
+    background: #c1cddd; 
+    color: #020202;
+    padding: 5rem 1rem;
+    text-align: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic-container {
+    margin-bottom: 1rem;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #6e90bd ; 
+}
+
+.profile-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-section {
+    padding: 2rem 1rem;
+    background: #c1cddd; 
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    background:#6e90bd ; 
+    margin: 1rem;
+    padding: 1rem;
+    width: calc(33% - 2rem);
+    text-align: center;
+    border-radius: 5px;
+    color: #000000;
+}
+
+.internship {
+    background: #c1cddd; 
+    margin: 1rem auto;
+    padding: 1rem;
+    width: calc(50% - 2rem);
+    border: 1px solid #6e90bd ; 
+    border-radius: 5px;
+}
+footer {
+    background: #6e90bd ; 
+    color: #020202;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#internships">Internships</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="profile-pic-container">
+                <img src="profile.jpeg" alt="Profile Picture" class="profile-pic">
+            </div>
+            <h1>Hello, I'm Dhivya</h1>
+            <p>Welcome to my Portfolio</p>
+        </div>
+    </section>
+    <section id="about" class="content-section">
+        <h2>About Me</h2>
+        <p>Hello! I am currently pursuing my Bachelor's degree in Information Technology at Knowledge Institute of Technology. 
+            With a solid foundation in programming and web development, I have developed my skills in HTML, CSS, Python, C, and SQL. My passion lies in creating innovative solutions and continuously improving my technical expertise. I am eager to leverage my knowledge in challenging projects and internships to further enhance my learning and contribute effectively to the tech industry.</p>
+
+    </section>
+
+    <section id="projects" class="content-section">
+        <h2>Projects</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <h3>I'm developing a website for a carworkshop which is on  process</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="internships" class="content-section">
+        <h2>Internships</h2>
+        <div class="internship">
+            <h3>Lapworkz</h3>
+            <p>Role: Web Development Intern</p>
+            <p>Duration: November 2023 - December 2023</p>
+            <p>Description: Worked on developing front-end and back-end and learnt to build a website using HTML,CSS.</p>
+        </div>
+        <div class="internship">
+            <h3>Codsoft</h3>
+            <p>Role: C++ Programming Intern</p>
+            <p>Duration: April 2024 - May 2024</p>
+            <p>Description:I gained hands-on experience with object-oriented programming, data structures, and algorithms. This internship significantly enhanced my understanding of C++ programming and its applications in real-world scenarios</p>
+        </div>
+        <div class="internship">
+            <h3>Neura AI</h3>
+            <p>Role: AIML Intern</p>
+            <p>Duration: July 2024 - August 2024</p>
+            <p>Description: I worked on various projects involving machine learning algorithms and artificial intelligence applications. My responsibilities included data preprocessing, model training, and evaluation, as well as implementing and optimizing machine learning models.</p> </div>
+    </section>
+
+    <section id="contact" class="content-section">
+        <h2>Contact Me</h2>
+        <p>
+           Email: <a href="mailto:dhivya.mrn@gmail.com"> dhivya.mrn@gmail.com
+            </a>
+        </p>
+        <p>
+           LinkedIn: <a href="https://www.linkedin.com/in/dhivya-n-778a24260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" >
+                 Click here to view my Profile
+            </a>
+        </p>
+    </section>
+    <br><br>
+
+    <footer>
+        <p>&copy; 2024 Dhivya. All rights reserved.</p>
+    </footer>
+</body>
+</html>
